@@ -1,4 +1,3 @@
-
 window.onload = function () {
     const items = document.querySelectorAll(".item");
     const container = document.querySelector(".container");
@@ -41,7 +40,7 @@ window.onload = function () {
                 y: y,
                 opacity: show ? 1 : 0,
                 duration: 0.5,
-                ease: "power1.out"
+                ease: "power1.out",
             });
         });
     };
@@ -87,4 +86,3 @@ window.onload = function () {
         });
     });
 };
-
